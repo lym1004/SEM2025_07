@@ -10,9 +10,9 @@ spring:
 
   # 数据库配置
   datasource:
-    url: jdbc:mysql://localhost:3306/qa_service?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/g07_qa?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
-    password: cyc041215
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   # JPA配置
